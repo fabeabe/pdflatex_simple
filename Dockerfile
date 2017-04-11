@@ -5,10 +5,13 @@ RUN apt-get update && apt-get install -y \
     git \
     openssh-client \
     ###
-    texlive-generic-recommended \
-    texlive-latex-recommended \
-    texlive-latex-extra \
+    texlive-full \
     texlive-fonts-recommended \
     texlive-fonts-extra \
-    texlive-lang-english \
-    texlive-lang-european
+    texlive-latex-base \
+    texlive-latex-extra \
+    texlive-math-extra \
+    texlive-science \
+    #
+    biber
+    
