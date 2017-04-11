@@ -12,6 +12,8 @@ RUN apt-get update && apt-get install -y \
     texlive-latex-extra \
     texlive-math-extra \
     texlive-science \
+    texlive-lang-english \ 
+    texlive-lang-european \
     #
     biber
     
