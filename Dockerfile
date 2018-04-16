@@ -14,7 +14,7 @@ RUN apt-get update && apt-get install -y \
     texlive-science \
     texlive-lang-english \ 
     texlive-lang-european \
-    ##
+    #
     biber
 RUN apt-get install ttf-mscorefonts-installer -y
 
