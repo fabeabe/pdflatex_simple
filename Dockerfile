@@ -16,8 +16,6 @@ RUN apt-get update && apt-get install -y \
     texlive-lang-european \
     #
     biber
-RUN apt-get update && \
-    DEBIAN_FRONTEND=noninteractive apt-get -qq install ttf-mscorefonts-installer -y   
 RUN apt install wget
 RUN wget https://www.tug.org/fonts/getnonfreefonts/install-getnonfreefonts
 RUN texlua install-getnonfreefonts
