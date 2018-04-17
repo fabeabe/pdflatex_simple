@@ -21,4 +21,4 @@ RUN apt-get update && \
 RUN apt install wget
 RUN wget https://www.tug.org/fonts/getnonfreefonts/install-getnonfreefonts
 RUN texlua install-getnonfreefonts
-RUN getnonfreefonts-sys -a
+RUN getnonfreefonts --sys -a
