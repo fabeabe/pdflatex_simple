@@ -6,3 +6,5 @@ RUN apt-get update && apt-get install -y \
     texlive-full \
     #
     biber
+    apk --no-cache add inkscape
+    apk --no-cache add make
